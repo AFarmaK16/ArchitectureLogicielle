@@ -1,0 +1,197 @@
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.navbar {
+  background: linear-gradient(60deg, #476cbc, #121212);
+  border-bottom: 0 none;
+  font-size: 2em;
+  transition: .25s all linear;
+  height: 70px;
+}
+.navbar-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.nav{
+  display: block;
+}
+
+.navbar .nav a  {
+  font-family:f;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.navbar .nav a:hover, .navbar .nav a:focus {
+  background: cornsilk;
+}
+.navbar .active a {
+  border-bottom: 2px solid tan ;
+  
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+  margin-top: 10px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.centered {
+  text-align: center
+}
+
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-transition: background-color .4s linear, color .4s linear;
+  -moz-transition: background-color .4s linear, color .4s linear;
+  -o-transition: background-color .4s linear, color .4s linear;
+  -ms-transition: background-color .4s linear, color .4s linear;
+  transition: background-color .4s linear, color .4s linear;
+  color: hsl(46, 76%, 42%);
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #696E74;
+}
+
+#h {
+  padding-top: 250px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: 25%;
+  -moz-background-size: 25%;
+  -o-background-size: 25%;
+  background-size: 25%;
+  min-height: 25px;
+}
+
+
+
+@media (max-width: 768px) {
+  #h {
+    padding-top: 200px;
+    min-height: 50px;
+  }
+
+  #h h1 {
+    font-size: 50px;
+  }
+}
+
+#g {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: linear-gradient(70deg,rgba(210, 180, 140, 0.95),rgba(241, 239, 231, 0.95)),url(../img/toile.jpg);
+  background-repeat: no-repeat;
+  min-height: 700px;
+  color: white;
+  box-shadow: maroon;
+  border-radius: 12px 12px 0 0;
+  background-size: cover; 
+}
+
+#g h1 {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#g p {
+  color: white;
+  font-size: 16px;
+}
+
+
+#contact {
+  padding: 40px 0;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+
