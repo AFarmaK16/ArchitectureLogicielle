@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+@media (max-width: 768px) {
+
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    height: 800px;
+    /* width: 500px; */
+    width: auto;
+    /* width: 260px; */
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+  }
+}
+
+.navbar {
+  background: linear-gradient(60deg, #476cbc, #93959a);
+  border-bottom: 0 none;
+  font-size: 2em;
+  transition: .25s all linear;
+  height: 70px;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-nav>li {
+  float: left;
+}
+
+
+
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav>li {
+  position: relative;
+  display: block;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.nav {
+  display: block;
+}
+
+.navbar .nav a {
+  font-family: f;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.navbar .nav a:hover,
+.navbar .nav a:focus {
+  background: whitesmoke;
+  color: black;
+}
+
+.navbar .active a {
+  border-bottom: 2px solid white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-transition: background-color .4s linear, color .4s linear;
+  -moz-transition: background-color .4s linear, color .4s linear;
+  -o-transition: background-color .4s linear, color .4s linear;
+  -ms-transition: background-color .4s linear, color .4s linear;
+  transition: background-color .4s linear, color .4s linear;
+  color: white;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #696E74;
+}
+
+
+
+#h {
+  padding-top: 250px;
+  text-align: center;
+  background-color: transparent;
+  background-attachment: relative;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: 25%;
+  -moz-background-size: 25%;
+  -o-background-size: 25%;
+  background-size: 25%;
+  min-height: 25px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#h>div {
+  text-align: center;
+  width: 500px;
+  margin-right: 100px;
+  /* padding-right: 10px; */
+  justify-content: space-around;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+}
+#h>div:hover{
+  background-color: lavender;
+}
+
+
+
+@media (max-width: 768px) {
+  #h {
+    padding-top: 200px;
+    min-height: 50px;
+  }
+
+  #h h1 {
+    font-size: 50px;
+  }
+}
+#back{
+  color: red;
+  font-weight: 200px;
+  display: flex;
+  float: right;
+}
+footer{
+  position: fixed;
+  bottom: 0%;
+  /* background-attachment: fixed; */
+}
